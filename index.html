@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" href="styles/main.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/logo/color_image_pistons.png"/>
+<title>Жуков-мото</title>
+</head>
+<body>
+<!--Один общий файл css для общих стилей и дополнительно под каждый отдельный лендинг свой css.
+Таким образом будет легко всё поддерживать и по возможности легко убирать/добавлять.-->
+<!--Ну а на "продакшен" было неплохо еще все css "минифицировать"-->
+<header>
+    <section class="header_section_for_phone_address">
+        <div class="header_section_container">
+            <div class="phone_container">
+                <article class="phones_wrapper">
+                    <a class="phone" href="tel:+7 (910) 548-30-51" title="Номер телефона">+ 7(910)-548-30-51</a>
+                    <a class="phone" href="tel:+7 (953) 461-44-25" title="Номер телефона">+ 7(953)-461-44-25</a>
+                    <time title="Мы работаем без выходных
+                       с 9:00 до 21:00" class="schedule"><p> с &nbsp;9:00 до 21:00</p>
+                    </time>
+                </article>
+            </div>
+
+            <article class="address_container" title="Нажмите, чтобы посмотреть на карте">
+
+                <div class="address_link_wrapper">
+                    <a href="https://yandex.ru/maps/-/CKUXELn0">
+                        Находимся в г. Жуков<br> ул.Чкалова 4
+                    </a></div>
+
+            </article>
+        </div>
+    </section>
+
+    <section class="header_nav">
+        <div class="header_section_container">
+
+            <article title="Жуков-мото" class="logo_container">
+                <article class="logo_wrapper">
+                    <img src="images/logo/color_medium.png" alt="Ремонт садовой техники">
+                </article>
+            </article>
+            <article title="Меню" class="menu_container">
+                <article class="menu_wrapper">
+
+                </article>
+            </article>
+
+            <nav class="nav_buttons_container">
+                <div class="nav_buttons_wrapper_ws">
+                    <div class="nav_button_main"> Главная страница</div>
+                    <div class="nav_button_services">Услуги</div>
+                    <div class="nav_button_contacts">Контакты</div>
+                </div>
+            </nav>
+
+        </div>
+    </section>
+
+</header>
+<a class="button">
+    <span></span>
+    <span></span>
+    <span></span>
+</a>
+<main>
+    <iframe id="map_yandex" src="https://yandex.ru/map-widget/v1/?z=15&ol=biz&oid=12356213291"  frameborder="0"></iframe>
+</main>
+<footer>
+    <aside title="Жуков-мото" class="logo_wrapper">
+        <img src="images/logo/color_medium.png" alt="Ремонт садовой техники">
+        <!--        <img src="images/1.jpg">-->
+        <p>Жуков-мото © 2015 — 2020</p>
+    </aside>
+    <iframe src="https://yandex.ru/sprav/widget/rating-badge/1235621329" width="150" height="50" frameborder="0"></iframe>
+    <!--    <div class="flex_break"></div>-->
+
+    <!--    <div class="line_under_text_footer"></div>-->
+
+    <!--    <aside title="Ознакомьтесь, пожалуйста!" class="text_for_customers">Вся информация на сайте размещена в целях-->
+    <!--        предоставления возможности покупателю ознакомиться с товаром перед его приобретением, и не является публичной-->
+    <!--        офертой (статья 437 ГК РФ). Информация о товарах на сайте может обновляться в течение нескольких часов. О-->
+    <!--        наличии и стоимости товара уточняйте у менеджера по телефонам, указанным на сайте.-->
+    <!--    </aside>-->
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="javascript/script.js"></script>
+<script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab083308dcc1374ca037feac36e0667b500d2c9e614607378e1d50fcb721aeebd
+&amp;width=100%&amp;height=100%&amp;id=map_yandex&amp;lang=ru_RU&amp;scroll=true"></script>
+</body>
+</html>
