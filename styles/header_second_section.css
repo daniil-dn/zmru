@@ -1,0 +1,47 @@
+
+/*Nav menu for >900px screen*/
+@media (max-width: 900px) {
+
+
+    .button {
+        margin: 100px auto;
+    }
+
+    .button {
+        display: block;
+        background: #ffffff;
+        width: 32px;
+        height: 32px;
+        border-radius: 3px;
+        box-sizing: border-box;
+        padding: 9px 6px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .button.toggled span:first-child {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .button.toggled span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .button.toggled span:last-child {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+
+    .button span {
+        display: block;
+        background: rgba(0, 0, 0, 0.75);
+        width: 20px;
+        height: 2px;
+        border-radius: 3px;
+        transform-origin: center;
+        transition: 0.5s ease;
+    }
+
+    .button span:nth-child(2) {
+        margin: 4px 0;
+    }
+}
