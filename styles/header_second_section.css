@@ -1,8 +1,75 @@
 
-/*Nav menu for >900px screen*/
+.header_second_section {
+    /*outline: 1px solid #c80034;*/
+    width: 100%;
+    margin: 0 auto;
+    border-color: #d65b35;
+}
+
+@media (max-width: 10px) {
+    .header_second_section {
+        width: 95%;
+    }
+}
+
+/*---------------------------------------NAVIGATION---------------------------------------*/
+.nav_buttons_container {
+    /*outline: 1px solid #3cc850;*/
+    float: right;
+    position: relative;
+    height: 100%;
+    width: 680px;
+}
+/*---------------------------------------nav FOR WIDE SCREENS---------------------------------------*/
+
+
+.buttons_wrapper_wides {
+    width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.buttons_wrapper_wides div {
+    display: inline-block;
+    box-sizing: content-box;
+
+    font-size: 1.2em;
+    font-weight: bolder;
+
+    padding: 5px 10px 5px 10px;
+    margin: 0 20px 0 20px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+
+}
+
+.buttons_wrapper_wides div:hover {
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 5px 4px rgba(37, 41, 33, 0.2);
+
+    /*background-color: #e3dcd7;*/
+}
+
+.buttons_wrapper_wides div:last-child {
+    margin-right: 0;
+}
+
+.buttons_wrapper_wides div:first-child {
+    margin-left: 0;
+}
+
+
 @media (max-width: 900px) {
+    .buttons_wrapper_wides {
+        display: none;
+    }
+}
 
 
+/*---------------------------------------NAV FOR narrow SCREENS---------------------------------------*/
+@media (max-width: 900px) {
     .button {
         margin: 100px auto;
     }
@@ -43,5 +110,60 @@
 
     .button span:nth-child(2) {
         margin: 4px 0;
+    }
+}
+
+
+/*---------------------------------------LOGOTYPE---------------------------------------*/
+header .logo_container {
+    float: left;
+    position: relative;
+
+    height: 100%;
+    width: 180px;
+    /*outline: 1px solid #3cc850;*/
+}
+
+header .logo_wrapper {
+    height: 95%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*outline: 1px solid #3cc850;*/
+}
+
+.logo_wrapper img {
+    width: 100%;
+}
+
+
+@media (max-width: 900px) {
+    /*LOGOTYPE */
+    /*LOGOTYPE*/
+    header .logo_container {
+        float: none;
+        display: inline-block;
+        position: static;
+
+        height: 100%;
+        width: 40%;
+        /*outline: 1px solid #3cc850;*/
+    }
+
+    header .logo_wrapper {
+        width: 100%;
+        position: static;
+        top: 50%;
+        left: 50%;
+        transform: translate(0%, 0%);
+        /*outline: 1px solid #3cc850;*/
+    }
+
+    .logo_wrapper img {
+        margin: 0 0 0 20px;
+        width: 100%;
+        max-width: 220px;
     }
 }

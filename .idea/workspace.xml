@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261b8c71-2379-4725-947b-6e69b493590e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/header_first_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/header_second_section.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/header_first_section.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header_first_section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/header_second_section.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header_second_section.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <workItem from="1583233184033" duration="600000" />
       <workItem from="1584189805459" duration="14637000" />
       <workItem from="1584289338552" duration="16859000" />
-      <workItem from="1584514346424" duration="9400000" />
+      <workItem from="1584514346424" duration="14473000" />
     </task>
     <servers />
   </component>

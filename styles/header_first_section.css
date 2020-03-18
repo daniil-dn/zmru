@@ -1,0 +1,157 @@
+.header_first_section {
+    /*outline: 1px solid #c1c800;*/
+    width: 100%;
+    padding: 0px 0 0px 0;
+    margin: 0 0 5px 0;
+    border-bottom: 1px solid #e6e6e6;
+
+    height: fit-content;
+}
+
+
+/*---------------------------------------PHONE---------------------------------------*/
+.phone_container {
+    width: 350px;
+    height: 100%;
+    padding: 0 20px 0 20px;
+
+    float: left;
+    /*outline: 1px solid #7e0102;*/
+
+    border-right: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+}
+
+.phones_wrapper {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+
+    align-items: center;
+
+    height: 100%;
+
+    /*outline: 1px solid #7e0102;*/
+    /*border-radius: 8px;*/
+
+}
+
+.phone {
+    text-decoration: none;
+}
+
+.phone:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    /*PHONE and schedule*/
+    .phone_container {
+        width: 100%;
+        height: 50%;
+
+        padding: 0 0 0 0;
+        float: none;
+    }
+
+    .phones_wrapper {
+        padding: 0 0 0 5px;
+        width: 100%;
+        height: 100px;
+
+
+    }
+}
+
+/*---------------------------------------schedule---------------------------------------*/
+.schedule {
+    grid-row: 1/3;
+    /*outline: 1px solid #7e0102;*/
+    color: red;
+    text-align: center;
+
+    align-self: center;
+}
+
+
+/*---------------------------------------ADDRESS---------------------------------------*/
+.address_container {
+    float: right;
+    position: relative;
+    /*outline: 1px solid #7e0102;*/
+    height: 100%;
+    width: 250px;
+    border-right: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+
+}
+
+.address_link_wrapper {
+    padding: 0 0 0 20px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*outline: 1px solid #a820da;*/
+}
+
+.address_container a {
+    text-decoration: none;
+    color: #000000
+}
+
+.address_container a:hover {
+    color: #d65b35;
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    /*PHONE and schedule*/
+    .phone_container {
+        width: 100%;
+        height: 50%;
+
+        padding: 0 0 0 0;
+        float: none;
+    }
+
+    .phones_wrapper {
+        padding: 0 0 0 5px;
+        width: 100%;
+        height: 100px;
+
+
+    }
+
+    /*ADDRESS*/
+    .address_container {
+        float: none;
+        position: relative;
+
+        /*outline: 1px solid #7e0102;*/
+
+        border-top: 1px solid #e6e6e6;
+        border-right: 0px solid #e6e6e6;
+        border-left: 0px solid #e6e6e6;
+
+        width: 100%;
+        padding: 5px 0 0 0;
+        margin: 10px 0 10px 0;
+    }
+
+    .address_link_wrapper {
+        height: fit-content;
+        padding: 0 0 0 0;
+
+        transform: translate(0%, 0%);
+        position: static;
+
+        text-align: center;
+    }
+
+
+}
