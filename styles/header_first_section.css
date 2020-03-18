@@ -5,7 +5,7 @@
     margin: 0 0 5px 0;
     border-bottom: 1px solid #e6e6e6;
 
-    height: fit-content;
+    height: max-content;
 }
 
 
@@ -47,7 +47,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 940px) {
     /*PHONE and schedule*/
     .phone_container {
         width: 100%;
@@ -109,7 +109,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 940px) {
     /*PHONE and schedule*/
     .phone_container {
         width: 100%;
@@ -144,7 +144,7 @@
     }
 
     .address_link_wrapper {
-        height: fit-content;
+        height: max-content;
         padding: 0 0 0 0;
 
         transform: translate(0%, 0%);

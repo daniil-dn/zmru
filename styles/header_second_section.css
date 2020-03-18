@@ -1,29 +1,37 @@
 
-.header_second_section {
+.head_second_section {
     /*outline: 1px solid #c80034;*/
     width: 100%;
     margin: 0 auto;
     border-color: #d65b35;
+    height: max-content;
+
+    position: relative;
 }
 
-@media (max-width: 10px) {
-    .header_second_section {
-        width: 95%;
-    }
-}
 
 /*---------------------------------------NAVIGATION---------------------------------------*/
-.nav_buttons_container {
+.buttons_container {
     /*outline: 1px solid #3cc850;*/
     float: right;
     position: relative;
     height: 100%;
     width: 680px;
 }
+
+@media (max-width: 940px) {
+    .buttons_container {
+        display: inline-block;
+        width: 10%;
+        position: absolute;
+        right: 0;
+    }
+}
+
 /*---------------------------------------nav FOR WIDE SCREENS---------------------------------------*/
 
 
-.buttons_wrapper_wides {
+nav .but_wide_wrap {
     width: 100%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -31,7 +39,7 @@
     left: 50%;
 }
 
-.buttons_wrapper_wides div {
+.but_wide_wrap div {
     display: inline-block;
     box-sizing: content-box;
 
@@ -45,71 +53,75 @@
 
 }
 
-.buttons_wrapper_wides div:hover {
+.but_wide_wrap div:hover {
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 2px 2px 5px 4px rgba(37, 41, 33, 0.2);
 
     /*background-color: #e3dcd7;*/
 }
 
-.buttons_wrapper_wides div:last-child {
+.but_wide_wrap div:last-child {
     margin-right: 0;
 }
 
-.buttons_wrapper_wides div:first-child {
+.but_wide_wrap div:first-child {
     margin-left: 0;
 }
 
 
-@media (max-width: 900px) {
-    .buttons_wrapper_wides {
+@media (max-width: 940px) {
+    .but_wide_wrap {
         display: none;
     }
 }
 
 
 /*---------------------------------------NAV FOR narrow SCREENS---------------------------------------*/
-@media (max-width: 900px) {
-    .button {
-        margin: 100px auto;
-    }
+.but_narrow_wrap {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -30%);
+}
 
-    .button {
+.but_narrow_wrap .button {
+    display: none;
+    background: #ffffff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    user-select: none;
+}
+
+.but_narrow_wrap .button span {
+    display: block;
+    background: rgba(0, 0, 0, 0.75);
+    width: 25px;
+    height: 4px;
+    border-radius: 3px;
+    transform-origin: center;
+    transition: 0.5s ease;
+}
+
+.but_narrow_wrap .button span:nth-child(2) {
+    margin: 4px 0;
+}
+
+.but_narrow_wrap .button.toggled span:first-child {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.but_narrow_wrap .button.toggled span:nth-child(2) {
+    opacity: 0;
+}
+
+.but_narrow_wrap .button.toggled span:last-child {
+    transform: translateY(-6px) rotate(-45deg);
+}
+
+
+@media (max-width: 940px) {
+    .but_narrow_wrap .button {
         display: block;
-        background: #ffffff;
-        width: 32px;
-        height: 32px;
-        border-radius: 3px;
-        box-sizing: border-box;
-        padding: 9px 6px;
-        cursor: pointer;
-        user-select: none;
-    }
-
-    .button.toggled span:first-child {
-        transform: translateY(6px) rotate(45deg);
-    }
-
-    .button.toggled span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .button.toggled span:last-child {
-        transform: translateY(-6px) rotate(-45deg);
-    }
-
-    .button span {
-        display: block;
-        background: rgba(0, 0, 0, 0.75);
-        width: 20px;
-        height: 2px;
-        border-radius: 3px;
-        transform-origin: center;
-        transition: 0.5s ease;
-    }
-
-    .button span:nth-child(2) {
-        margin: 4px 0;
     }
 }
 
@@ -120,7 +132,7 @@ header .logo_container {
     position: relative;
 
     height: 100%;
-    width: 180px;
+    width: 200px;
     /*outline: 1px solid #3cc850;*/
 }
 
@@ -139,15 +151,13 @@ header .logo_wrapper {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 940px) {
     /*LOGOTYPE */
     /*LOGOTYPE*/
     header .logo_container {
         float: none;
         display: inline-block;
         position: static;
-
-        height: 100%;
         width: 40%;
         /*outline: 1px solid #3cc850;*/
     }
