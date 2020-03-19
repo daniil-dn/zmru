@@ -22,18 +22,27 @@
 @media (max-width: 940px) {
     .buttons_container {
         display: inline-block;
-        width: 10%;
+        width: 40%;
         position: absolute;
         right: 0;
     }
 }
 
+.button_main, .button_services, .button_contacts {
+    font-size: 1.3em;
+    font-weight: bolder;
+
+}
+
 /*---------------------------------------nav FOR WIDE SCREENS---------------------------------------*/
 
 
-nav .but_wide_wrap {
+.but_wide_wrap {
+    font-size: 22px;
+
     width: 100%;
-    transform: translate(-50%, -50%);
+    height: max-content;
+    transform: translate(-50%, -30%);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,15 +50,12 @@ nav .but_wide_wrap {
 
 .but_wide_wrap div {
     display: inline-block;
-    box-sizing: content-box;
-
-    /*font-size: 1.2em;*/
-    /*font-weight: bolder;*/
 
     padding: 5px 10px 5px 10px;
     margin: 0 20px 0 20px;
-    border-radius: 5px;
+
     background-color: #f8f8f8;
+    border-radius: 5px;
 
 }
 
@@ -78,16 +84,33 @@ nav .but_wide_wrap {
 
 /*---------------------------------------NAV FOR narrow SCREENS---------------------------------------*/
 .but_narrow_wrap {
+    background: #d6d6d6;
+    border-radius: 10px 10px 0 0;
+
+    display: none;
+    width: 100%;
+    box-sizing: content-box;
+    padding: 10px 0 5px 0;
+    margin: 0 auto;
+    /*margin-top: -10px;*/
+
     position: absolute;
     top: 50%;
+    right: 0;
     transform: translate(0%, -30%);
+
+    /*outline: 1px solid #c8003f;*/
 }
 
 .but_narrow_wrap .button {
-    display: none;
-    background: #ffffff;
-    border-radius: 3px;
+    background: #d6d6d6;
+    border-radius: 7px;
+
     box-sizing: border-box;
+    margin: 0 auto;
+    width: min-content;
+    padding: 10px ;
+
     cursor: pointer;
     user-select: none;
 }
@@ -120,11 +143,37 @@ nav .but_wide_wrap {
 
 
 @media (max-width: 940px) {
-    .but_narrow_wrap .button {
+    .but_narrow_wrap {
         display: block;
     }
 }
 
+/*----------------------------------------button------------------------------------------*/
+.narrow_buttons {
+    background: #d6d6d6;
+    border-radius: 0 0 10px 10px;
+
+    /*outline: 1px solid #3cc850;*/
+    text-align: center;
+
+    position: absolute;
+
+    width: 100%;
+}
+
+.narrow_buttons div {
+    padding: 0.5em 0 0 0;
+}
+
+.narrow_buttons div:last-child {
+    padding-bottom: 0.5em;
+}
+
+@media (max-width: 550px) {
+    .narrow_buttons {
+        font-size: 0.7em;
+    }
+}
 
 /*---------------------------------------LOGOTYPE---------------------------------------*/
 header .logo_container {
@@ -175,5 +224,6 @@ header .logo_wrapper {
         margin: 0 0 0 20px;
         width: 100%;
         max-width: 220px;
+        min-width: 120px;
     }
 }
