@@ -4,7 +4,6 @@
 header {
     width: 100%;
     font-weight: bold;
-    font-size: 1.2em;
 
     /*outline: 1px solid #7e0102;*/
 }
@@ -32,6 +31,6 @@ header {
 
 @media (max-width: 352px) {
     header {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 }

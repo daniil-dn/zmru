@@ -43,8 +43,8 @@ nav .but_wide_wrap {
     display: inline-block;
     box-sizing: content-box;
 
-    font-size: 1.2em;
-    font-weight: bolder;
+    /*font-size: 1.2em;*/
+    /*font-weight: bolder;*/
 
     padding: 5px 10px 5px 10px;
     margin: 0 20px 0 20px;
