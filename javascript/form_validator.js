@@ -1,6 +1,7 @@
+
 'use strict';
 // Код валидации формы
-var validateForm = function (arrayFormInformation) {
+export function validate_form(arrayFormInformation) {
     // VALIDATORS FOR INPUTS
     let validatorRegExp = function (value, pattern) {
         let regObj = new RegExp(pattern, 'm');
@@ -125,10 +126,10 @@ var validateForm = function (arrayFormInformation) {
 };
 
 // Вызов валидатора формы
-validateForm({
-    formId: 'profile',
-    formValidClass: 'form_valid',
-    formInvalidClass: 'form_invalid',
-
-    inputErrorClass: 'input_error'
-});
+// validateForm({
+//     formId: 'profile',
+//     formValidClass: 'form_valid',
+//     formInvalidClass: 'form_invalid',
+//
+//     inputErrorClass: 'input_error'
+// });
