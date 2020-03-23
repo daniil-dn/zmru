@@ -2,12 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261b8c71-2379-4725-947b-6e69b493590e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/logo/color_medium_equal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/ test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/form_validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/form_validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/ test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/form_validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/form_validator.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/CSSPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/CSSRulePlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/Draggable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/EasePack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/EaselPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/MotionPathPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/PixiPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/ScrollToPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/TextPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/CSSRulePlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/CSSRulePlugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/CSSRulePlugin.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/Draggable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/Draggable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/Draggable.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/EasePack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/EasePack.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/EasePack.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/EaselPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/EaselPlugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/EaselPlugin.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/MotionPathPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/MotionPathPlugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/MotionPathPlugin.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/PixiPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/PixiPlugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/PixiPlugin.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/ScrollToPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/ScrollToPlugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/ScrollToPlugin.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/TextPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/TextPlugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/TextPlugin.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/gsap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/gsap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/dist/gsap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/gsap-core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/CSSPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/CSSRulePlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/Draggable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/EasePack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/EaselPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/MotionPathPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/PixiPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/ScrollToPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/TextPlugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/gsap-core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/utils/matrix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/utils/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/src/utils/strings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/animation.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/css-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/css-rule-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/custom-bounce.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/custom-ease.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/custom-wiggle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/draggable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/draw-svg-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/ease.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/easel-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/gs-dev-tools.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/gsap-core.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/gsap-plugins.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/gsap-utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/inertia-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/morph-svg-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/motion-path-helper.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/motion-path-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/physics-2d-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/physics-props-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/pixi-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/scramble-text-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/scroll-to-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/split-text.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/text-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/timeline.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/tween.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/types/utils/velocity-tracker.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/utils/matrix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/utils/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/node_modules/gsap/utils/strings.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/header_second_section.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header_second_section.css" afterDir="false" />
     </list>
@@ -64,6 +150,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/javascript/node_modules/gsap" />
       <recent name="$PROJECT_DIR$/javascript" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/style" />
@@ -113,7 +200,7 @@
       <workItem from="1584633598121" duration="18778000" />
       <workItem from="1584719300058" duration="8191000" />
       <workItem from="1584769411281" duration="1282000" />
-      <workItem from="1584771506938" duration="10137000" />
+      <workItem from="1584771506938" duration="14900000" />
     </task>
     <servers />
   </component>
@@ -152,65 +239,65 @@
     <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584967567726" />
     <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584350777313" />
     <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582974073205" />
-    <state width="1897" height="434" key="GridCell.Tab.0.bottom" timestamp="1584970687428">
+    <state width="1874" height="434" key="GridCell.Tab.0.bottom" timestamp="1584983511688">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687428" />
+    <state width="1874" height="434" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511688" />
     <state width="1897" height="344" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.0.center" timestamp="1584970687428">
+    <state width="1874" height="434" key="GridCell.Tab.0.center" timestamp="1584983511688">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687428" />
+    <state width="1874" height="434" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511688" />
     <state width="1897" height="344" key="GridCell.Tab.0.center/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.0.left" timestamp="1584970687428">
+    <state width="1874" height="434" key="GridCell.Tab.0.left" timestamp="1584983511688">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687428" />
+    <state width="1874" height="434" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511688" />
     <state width="1897" height="344" key="GridCell.Tab.0.left/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.0.right" timestamp="1584970687428">
+    <state width="1874" height="434" key="GridCell.Tab.0.right" timestamp="1584983511688">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687428" />
+    <state width="1874" height="434" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511688" />
     <state width="1897" height="344" key="GridCell.Tab.0.right/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.1.bottom" timestamp="1584970687343">
+    <state width="1874" height="434" key="GridCell.Tab.1.bottom" timestamp="1584983511577">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687343" />
+    <state width="1874" height="434" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511577" />
     <state width="1897" height="344" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.1.center" timestamp="1584970687343">
+    <state width="1874" height="434" key="GridCell.Tab.1.center" timestamp="1584983511577">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.1.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687343" />
+    <state width="1874" height="434" key="GridCell.Tab.1.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511577" />
     <state width="1897" height="344" key="GridCell.Tab.1.center/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.1.left" timestamp="1584970687343">
+    <state width="1874" height="434" key="GridCell.Tab.1.left" timestamp="1584983511577">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.1.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687343" />
+    <state width="1874" height="434" key="GridCell.Tab.1.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511577" />
     <state width="1897" height="344" key="GridCell.Tab.1.left/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.1.right" timestamp="1584970687343">
+    <state width="1874" height="434" key="GridCell.Tab.1.right" timestamp="1584983511577">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687343" />
+    <state width="1874" height="434" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511577" />
     <state width="1897" height="344" key="GridCell.Tab.1.right/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.2.bottom" timestamp="1584970687343">
+    <state width="1874" height="434" key="GridCell.Tab.2.bottom" timestamp="1584983511577">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.2.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687343" />
+    <state width="1874" height="434" key="GridCell.Tab.2.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511577" />
     <state width="1897" height="344" key="GridCell.Tab.2.bottom/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.2.center" timestamp="1584970687343">
+    <state width="1874" height="434" key="GridCell.Tab.2.center" timestamp="1584983511577">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.2.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687343" />
+    <state width="1874" height="434" key="GridCell.Tab.2.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511577" />
     <state width="1897" height="344" key="GridCell.Tab.2.center/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.2.left" timestamp="1584970687343">
+    <state width="1874" height="434" key="GridCell.Tab.2.left" timestamp="1584983511577">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.2.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687343" />
+    <state width="1874" height="434" key="GridCell.Tab.2.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511577" />
     <state width="1897" height="344" key="GridCell.Tab.2.left/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
-    <state width="1897" height="434" key="GridCell.Tab.2.right" timestamp="1584970687343">
+    <state width="1874" height="434" key="GridCell.Tab.2.right" timestamp="1584983511577">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="434" key="GridCell.Tab.2.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584970687343" />
+    <state width="1874" height="434" key="GridCell.Tab.2.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1584983511577" />
     <state width="1897" height="344" key="GridCell.Tab.2.right/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584463683439" />
     <state width="1897" height="434" key="GridCell.Tab.3.bottom" timestamp="1584967885950">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -259,6 +346,6 @@
     <state x="144" y="253" key="run.anything.popup/0.27.1920.1053/1920.270.1440.810@0.27.1920.1053" timestamp="1584296333803" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/zmru$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1584769432559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/zmru$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1584974613153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

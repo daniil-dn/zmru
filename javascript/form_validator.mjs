@@ -1,7 +1,7 @@
 
 'use strict';
 // Код валидации формы
-export function validate_form(arrayFormInformation) {
+export default function validate_form(arrayFormInformation) {
     // VALIDATORS FOR INPUTS
     let validatorRegExp = function (value, pattern) {
         let regObj = new RegExp(pattern, 'm');
@@ -118,10 +118,10 @@ export function validate_form(arrayFormInformation) {
 
     let formId = arrayFormInformation.formId;
     let formElement = document.getElementById(formId);
-    formElement.addEventListener('focusout', inputChecker, true);
-    formElement.addEventListener('submit', formSubmit, true);
-    formElement.addEventListener('focus', inputFocus, true);
-
+    // formElement.addEventListener('focusout', inputChecker, true);
+    // formElement.addEventListener('submit', formSubmit, true);
+    // formElement.addEventListener('focus', inputFocus, true);
+    //
 
 };
 

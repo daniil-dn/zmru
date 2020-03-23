@@ -14,4 +14,12 @@ $(".button").on("click", function (event) {
     }
 
 });
+console.log(gsap.version)
+import validate_form from './form_validator.mjs'
+validate_form({
+    formId: 'profile',
+    formValidClass: 'form_valid',
+    formInvalidClass: 'form_invalid',
 
+    inputErrorClass: 'input_error'
+});
