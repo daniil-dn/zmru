@@ -43,7 +43,7 @@ footer {
 
     /*background: rgba(254, 255, 187, 0.8);*/
 
-    height: fit-content;
+    height:150px;
 
 
     display: flex;
@@ -56,20 +56,6 @@ footer {
 }
 
 /*LOGO*/
-footer .logo_wrapper {
-    /*outline: 1px solid #7e0102;*/
-    width: 20%;
-    min-width: 100px;
-    max-width: 200px;
-}
-
-footer .logo_wrapper p {
-    font-size: smaller;
-    text-align: center;
-
-    display: block;
-    margin: 0 0 10px 0;
-}
 
 
 /*Yandex profile iframe*/
@@ -83,33 +69,6 @@ footer iframe {
 }
 
 /*text for customers*/
-
-.line_under_text_footer {
-    width: 90%;
-    margin: 3px auto 0 auto;
-    height: 5px;
-    align-self: center;
-    border-radius: 5px;
-
-
-    background-color: rgba(0, 0, 0, 0.53);
-}
-
-footer .text_for_customers {
-    /*outline: 1px solid #7e0102;*/
-    font-size: 0.8em;
-    font-style: italic;
-    margin: 5px auto 0 auto;
-    width: 80%;
-    text-align: center;
-
-    align-self: center;
-}
-
-/*------------------------------------*/
-@media (max-width: 940px) {
-
-}
 
 @media (max-width: 480px) {
 
