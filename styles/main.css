@@ -12,12 +12,14 @@ body {
     line-height: 25px;
 }
 
-.disp_none{
+.disp_none {
     display: none;
 }
-disp_block{
+
+disp_block {
     display: block;
 }
+
 /*MAIN*/
 main {
     margin: 20px 0 20px 0;

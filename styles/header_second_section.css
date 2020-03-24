@@ -11,6 +11,7 @@
 
 .head_second_section .header_sections_container {
     height: 90px;
+    position: relative;
 }
 
 @media (max-width: 940px) {
@@ -22,6 +23,7 @@
 /*---------------------------------------NAVIGATION---------------------------------------*/
 .buttons_container {
     /*outline: 1px solid #3cc850;*/
+    transform: translateZ(0);
     float: right;
     position: relative;
     height: 100%;
@@ -33,6 +35,9 @@
         display: inline-block;
         width: 40%;
         position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: min-content;
         right: 0;
     }
 }
@@ -85,17 +90,16 @@
     }
 }
 
-
 /*---------------------------------------NAV FOR narrow SCREENS---------------------------------------*/
 .but_narrow_wrap {
-    /*background: #d6d6d6;*/
-    border-radius: 10px;
-
+    background: none;
+    border-radius: 15px 15px 25px 25px;
     display: none;
-    width: 100%;
 
-    position: absolute;
-    top: 50%;
+    width: 100%;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
     right: 0;
     transition: 0.5s ease;
     /*outline: 1px solid #c8003f;*/
@@ -160,14 +164,25 @@
 
     /*outline: 1px solid #3cc850;*/
     text-align: center;
+    cursor: pointer;
+    user-select: none;
 
     position: absolute;
+
+    height: 0;
 
     width: 100%;
 }
 
 .narrow_buttons div {
     padding: 0.5em 0 0.5em 0;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+.narrow_buttons div:hover {
+
+    background: #c6c6c6;
 }
 
 .narrow_buttons div:last-child {
