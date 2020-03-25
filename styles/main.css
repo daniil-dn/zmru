@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
+    overflow: hidden;
 
     font-family: 'PT Sans', sans-serif;
     color: #333;
