@@ -4,6 +4,7 @@
 header {
     width: 100%;
     font-weight: bold;
+    /*overflow: hidden;*/
 
     /*outline: 1px solid #7e0102;*/
 }
@@ -22,15 +23,12 @@ header {
     }
 }
 
-@media (max-width: 940px) {
+@media (max-width: 750px) {
     .header_sections_container {
         height: max-content;
         width: 100%;
     }
 }
 
-@media (max-width: 352px) {
-    header {
-        font-size: 0.9em;
-    }
+@media (max-width: 400px) {
 }

@@ -1,12 +1,14 @@
 
 .head_second_section {
-    /*outline: 1px solid #c80034;*/
+
     width: 100%;
     margin: 0 auto;
     border-color: #d65b35;
-    height: max-content;
-
+    height: min-content;
+    z-index: 2;
     position: relative;
+
+    /*outline: 1px solid #c80034;*/
 }
 
 .head_second_section .header_sections_container {
@@ -14,11 +16,60 @@
     position: relative;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 950px) {
+    .head_second_section {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 750px) {
     .head_second_section .header_sections_container {
         height: min-content;
     }
 }
+
+
+/*---------------------------------------LOGOTYPE---------------------------------------*/
+header .logo_container {
+    float: left;
+    height: 100%;
+    width: auto;
+    /*outline: 1px solid #c8300d;*/
+}
+
+header .logo_wrapper {
+    height: 100%;
+    /*outline: 1px solid #3cc850;*/
+}
+
+.logo_wrapper img {
+    height: 100%;
+
+}
+
+
+@media (max-width: 750px) {
+    /*LOGOTYPE */
+    header .logo_container {
+        float: none;
+        display: inline-block;
+    }
+
+    header .logo_wrapper {
+        height: min-content;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .logo_wrapper img {
+        height: auto;
+        width: 100%;
+        max-width: 220px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
 
 /*---------------------------------------NAVIGATION---------------------------------------*/
 .buttons_container {
@@ -28,9 +79,16 @@
     position: relative;
     height: 100%;
     width: 680px;
+    overflow: visible;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 950px) {
+    .buttons_container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 750px) {
     .buttons_container {
         display: inline-block;
         width: 40%;
@@ -44,14 +102,13 @@
 
 
 /*---------------------------------------nav FOR WIDE SCREENS---------------------------------------*/
-
-
 .but_wide_wrap {
-    font-size: 22px;
+    font-size: 1.4em;
 
-    width: 100%;
-    height: max-content;
-    transform: translate(-50%, -30%);
+    width: max-content;
+    margin: 0 auto;
+
+    transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -84,7 +141,7 @@
 }
 
 
-@media (max-width: 940px) {
+@media (max-width: 750px) {
     .but_wide_wrap {
         display: none;
     }
@@ -151,7 +208,7 @@
 }
 
 
-@media (max-width: 940px) {
+@media (max-width: 750px) {
     .but_narrow_wrap {
         display: block;
     }
@@ -195,44 +252,3 @@
     }
 }
 
-/*---------------------------------------LOGOTYPE---------------------------------------*/
-header .logo_container {
-    float: left;
-    height: 100%;
-    width: auto;
-    /*outline: 1px solid #c8300d;*/
-}
-
-header .logo_wrapper {
-    height: 100%;
-    /*outline: 1px solid #3cc850;*/
-}
-
-.logo_wrapper img {
-    height: 100%;
-
-}
-
-
-@media (max-width: 940px) {
-    /*LOGOTYPE */
-    header .logo_container {
-        float: none;
-        display: inline-block;
-        height: max-content;
-        width: 40%;
-    }
-
-    header .logo_wrapper {
-        height: min-content;
-        width: 100%;
-    }
-
-    .logo_wrapper img {
-        height: auto;
-        width: 100%;
-        max-width: 220px;
-        margin: 0 auto;
-        display: block;
-    }
-}

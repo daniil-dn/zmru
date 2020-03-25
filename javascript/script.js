@@ -1,5 +1,6 @@
 var but_narrow_tmLite = new TimelineMax();
 
+// alert(window.innerWidth)
 
 $(".button").on("click", function (event) {
     event.preventDefault();
