@@ -1,25 +1,14 @@
 .header_first_section {
-    font-size: 1.1em;
+font-size: 0.9em;
     /*outline: 1px solid #c1c800;*/
     width: 100%;
     padding: 0;
-    margin: 0 0 0px 0;
+    margin: 0 ;
     border-bottom: 1px solid #e6e6e6;
-    height: max-content;
+    height: min-content;
     overflow: hidden;
 }
 
-@media (max-width: 850px) {
-    .header_first_section {
-        font-size: 0.9em;
-    }
-}
-
-@media (max-width: 500px) {
-    .header_first_section {
-        font-size: 0.9em;
-    }
-}
 
 @media (max-width: 300px) {
     .header_first_section {
@@ -41,7 +30,7 @@
     /*outline: 1px solid #7e0102;*/
 }
 
-.phones_schedule_wrapper {
+.phone_schedule_wrapper {
     width: 95%;
     height: 100%;
     /*border-radius: 8px;*/
@@ -64,7 +53,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     /*PHONE and schedule*/
     .phone_schedule_container {
         max-width: 3330px;
@@ -74,11 +63,11 @@
         float: none;
     }
 
-    .phones_schedule_wrapper {
+    .phone_schedule_wrapper {
         padding: 0;
         margin: 0 auto;
         width: 70%;
-        height: 70px;
+        height: 50px;
 
     }
 
@@ -86,11 +75,13 @@
         padding: 0 15px 0 0;
     }
 }
+
 @media (max-width: 590px) {
-    .phones_schedule_wrapper {
+    .phone_schedule_wrapper {
         width: max-content;
     }
 }
+
 /*---------------------------------------schedule---------------------------------------*/
 .schedule {
     grid-row: 1/3;
@@ -131,15 +122,18 @@
 
 .address_container a {
     text-decoration: none;
-    color: #000000
+    color: #000000;
+    line-height:1.5em;
 }
 
 .address_container a:hover {
     color: #d65b35;
     text-decoration: underline;
 }
-
-@media (max-width: 750px) {
+.address_container a p{
+    margin: 0;
+}
+@media (max-width: 700px) {
     /*ADDRESS*/
     .address_container {
         width: 100%;

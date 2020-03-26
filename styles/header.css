@@ -2,18 +2,24 @@
 @import "header_second_section.css" all;
 
 header {
+    box-sizing: border-box;
     width: 100%;
     font-weight: bold;
-    /*overflow: hidden;*/
-
+    font-size: 1em;
     /*outline: 1px solid #7e0102;*/
+}
+
+@media (max-width: 850px) {
+    header {
+        font-size: 0.9em;
+    }
 }
 
 .header_sections_container {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    height: 80px;
+    height: 60px;
 }
 
 
@@ -23,12 +29,9 @@ header {
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     .header_sections_container {
         height: max-content;
         width: 100%;
     }
-}
-
-@media (max-width: 400px) {
 }

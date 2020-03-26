@@ -1,11 +1,7 @@
 
 .head_second_section {
-
     width: 100%;
     margin: 0 auto;
-    border-color: #d65b35;
-    height: min-content;
-    z-index: 2;
     position: relative;
 
     /*outline: 1px solid #c80034;*/
@@ -16,13 +12,14 @@
     position: relative;
 }
 
-@media (max-width: 950px) {
+
+@media (max-width: 760px) {
     .head_second_section {
         font-size: 0.9em;
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     .head_second_section .header_sections_container {
         height: min-content;
     }
@@ -42,29 +39,32 @@ header .logo_wrapper {
     /*outline: 1px solid #3cc850;*/
 }
 
-.logo_wrapper img {
+header .logo_wrapper img {
     height: 100%;
 
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     /*LOGOTYPE */
     header .logo_container {
+        width: 70%;
+
         float: none;
         display: inline-block;
     }
 
     header .logo_wrapper {
-        height: min-content;
-        width: 95%;
+        height: auto;
+        width: min-content;
         margin: 0 auto;
     }
 
-    .logo_wrapper img {
+    header .logo_wrapper img {
         height: auto;
-        width: 100%;
-        max-width: 220px;
+        width: 50%;
+
+        max-width: 140px;
         margin: 0 auto;
         display: block;
     }
@@ -73,22 +73,26 @@ header .logo_wrapper {
 
 /*---------------------------------------NAVIGATION---------------------------------------*/
 .buttons_container {
+    height: 100%;
+    width: 600px;
+
     /*outline: 1px solid #3cc850;*/
     transform: translateZ(0);
     float: right;
     position: relative;
-    height: 100%;
-    width: 680px;
+
     overflow: visible;
+
+    font-size: 1.3em;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 850px) {
     .buttons_container {
-        width: 500px;
+        width: 450px;
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     .buttons_container {
         display: inline-block;
         width: 40%;
@@ -103,7 +107,6 @@ header .logo_wrapper {
 
 /*---------------------------------------nav FOR WIDE SCREENS---------------------------------------*/
 .but_wide_wrap {
-    font-size: 1.4em;
 
     width: max-content;
     margin: 0 auto;
@@ -140,8 +143,7 @@ header .logo_wrapper {
     margin-left: 0;
 }
 
-
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     .but_wide_wrap {
         display: none;
     }
@@ -202,13 +204,12 @@ header .logo_wrapper {
 }
 
 .button_main, .button_services, .button_contacts {
-    font-size: 1.3em;
     font-weight: bolder;
 
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     .but_narrow_wrap {
         display: block;
     }
@@ -248,7 +249,12 @@ header .logo_wrapper {
 
 @media (max-width: 550px) {
     .narrow_buttons {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 }
 
+@media (max-width: 350px) {
+    .narrow_buttons {
+        font-size: 0.6em;
+    }
+}
