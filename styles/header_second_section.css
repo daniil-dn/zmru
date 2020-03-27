@@ -151,6 +151,9 @@ header .logo_wrapper img {
 
     position: relative;
     transition: 0.5s ease;
+
+
+    user-select: none;
     /*outline: 1px solid #c8003f;*/
 }
 
@@ -179,6 +182,8 @@ header .logo_wrapper img {
 
     transform-origin: center;
     transition: 0.5s ease;
+
+    user-select: none;
 }
 
 .but_narrow_wrap .button span:nth-child(2) {
@@ -212,8 +217,11 @@ header .logo_wrapper img {
 
 /*----------------------------------------button------------------------------------------*/
 .narrow_buttons {
-    background:rgb(212, 212, 212);
+    width: 100%;
+    height: 0;
     border-radius: 0 0 10px 10px;
+
+    background:rgb(212, 212, 212);
 
     /*outline: 1px solid #3cc850;*/
     text-align: center;
@@ -222,16 +230,18 @@ header .logo_wrapper img {
 
     position: absolute;
 
-    height: 0;
 
-    width: 100%;
 }
 
 .narrow_buttons div {
     padding: 0.5em 0 0.5em 0;
     border-radius: 10px;
+
     transform: translateY(-40px);
+
     opacity: 0;
+
+    user-select: none;
 }
 
 .narrow_buttons div:hover {
