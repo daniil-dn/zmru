@@ -1,12 +1,11 @@
 .header_first_section {
-    font-size: 0.9em;
+font-size: 0.9em;
     /*outline: 1px solid #c1c800;*/
     width: 100%;
-    height: min-content;
     padding: 0;
-    margin: 0;
+    margin: 0 ;
     border-bottom: 1px solid #e6e6e6;
-
+    height: min-content;
     overflow: hidden;
 }
 
@@ -57,19 +56,18 @@
 @media (max-width: 700px) {
     /*PHONE and schedule*/
     .phone_schedule_container {
-        max-width: none;
+        max-width: 3330px;
         width: 100%;
         height: min-content;
-        padding: 0;
-
+        padding: 0 0 0 0;
         float: none;
     }
 
     .phone_schedule_wrapper {
-        width: 70%;
-        height: 50px;
         padding: 0;
         margin: 0 auto;
+        width: 70%;
+        height: 50px;
 
     }
 
@@ -99,8 +97,8 @@
 
 /*---------------------------------------ADDRESS---------------------------------------*/
 .address_container {
-    width: 250px;
     height: 100%;
+    width: 250px;
     border-right: 1px solid #e6e6e6;
     border-left: 1px solid #e6e6e6;
 
@@ -125,18 +123,16 @@
 .address_container a {
     text-decoration: none;
     color: #000000;
-    line-height: 1.5em;
+    line-height:1.5em;
 }
 
 .address_container a:hover {
     color: #d65b35;
     text-decoration: underline;
 }
-
-.address_container a p {
+.address_container a p{
     margin: 0;
 }
-
 @media (max-width: 700px) {
     /*ADDRESS*/
     .address_container {

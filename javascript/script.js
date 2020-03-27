@@ -14,7 +14,6 @@ $(".button").on("click", function (event) {
             .to('.narrow_buttons', 0.2, {height: 'auto'}, '+=0.2')
             .to('.narrow_buttons div', 0.2, {transform: 'translateY(0)'})
             .to('.narrow_buttons div', 0.2, {opacity: 1}, "-=0.3")
-
         ;
 
 
@@ -26,7 +25,7 @@ $(".button").on("click", function (event) {
         }
 
     } else {
-        but_narrow_tmLite.reverse(1)
+        but_narrow_tmLite.reverse(1);
         setTimeout(() => {
             $('.narrow_buttons').addClass('disp_none')
         }, 1000)
