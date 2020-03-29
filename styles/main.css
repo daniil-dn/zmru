@@ -1,4 +1,5 @@
 @import "header.css" all;
+@import "content.css" all;
 
 body {
     margin: 0;
@@ -20,11 +21,6 @@ disp_block {
 }
 
 /*MAIN*/
-main {
-    margin: 5px 0 20px 0;
-    width: 100%;
-    height: 650px;
-}
 
 #in_dev {
     height: max-content;

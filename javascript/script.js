@@ -1,3 +1,10 @@
+$(document).ready(function () {
+$(".gallary_wrapper").cycle({
+    fx:'scrollRight',
+    sync:true
+})
+})
+
 var but_narrow_tmLite = new TimelineMax();
 
 // alert(window.innerWidth)
@@ -32,3 +39,8 @@ $(".button").on("click", function (event) {
     }
 });
 // console.log(gsap.version)
+
+
+
+
+
