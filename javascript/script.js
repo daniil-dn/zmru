@@ -14,9 +14,9 @@ $(".button").on("click", function (event) {
 
     $(this).toggleClass("toggled");
     if ($(this).hasClass('toggled')) {
-        $('.narrow_buttons').removeClass('disp_none');
+        $('.narrow_buttons').removeClass('disp_none ');
         but_narrow_tmLite.to('.but_narrow_wrap', 0.1, {
-            backgroundColor: 'rgb(212, 212, 212)'
+            backgroundColor: 'rgb(231,231,231)'
         }).to('.but_narrow_wrap', 0.2, {borderRadius: '10px 10px 0 0'},)
             .to('.narrow_buttons', 0.2, {height: 'auto'}, '+=0.2')
             .to('.narrow_buttons div', 0.2, {transform: 'translateY(0)'})

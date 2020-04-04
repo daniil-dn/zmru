@@ -3,8 +3,11 @@
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    position: relative;
     font-size: 1em;
+
+    position: relative;
+    z-index: 3;
+
     /*outline: 1px solid #c80034;*/
 }
 
@@ -144,14 +147,15 @@ header .logo_wrapper img {
 .but_narrow_wrap {
     width: 100%;
     padding: 0 0 1px 0;
+    border-radius: 15px 15px 25px 25px;
 
     background: none;
-    border-radius: 15px 15px 25px 25px;
+
     display: none;
 
     position: relative;
-    transition: 0.5s ease;
 
+    transition: 0.5s ease;
 
     user-select: none;
     /*outline: 1px solid #c8003f;*/
@@ -166,7 +170,8 @@ header .logo_wrapper img {
 
     position: relative;
 
-    background: rgb(212, 212, 212);
+
+    background: rgb(231, 231, 231);
     cursor: pointer;
     user-select: none;
 }
@@ -221,7 +226,7 @@ header .logo_wrapper img {
     height: 0;
     border-radius: 0 0 10px 10px;
 
-    background:rgb(212, 212, 212);
+    background: rgb(231, 231, 231);
 
     /*outline: 1px solid #3cc850;*/
     text-align: center;
@@ -246,7 +251,7 @@ header .logo_wrapper img {
 
 .narrow_buttons div:hover {
 
-    background: #c6c6c6;
+    background: rgb(219, 219, 219);
 }
 
 .narrow_buttons div:last-child {

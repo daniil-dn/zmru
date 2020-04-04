@@ -4,19 +4,19 @@ main {
     height: max-content;
 }
 
-@media (min-width: 1300px) {
-
-}
 
 /*-----------------------------------------GALLERY------------------------------------*/
 .gallery_container {
     width: 100%;
-    height: 500px;
+    height: 460px;
 }
 
 .gallary_wrapper {
     width: 100%;
     height: 100%;
+
+    position: relative;
+    z-index: 0;
 }
 
 .gallary_wrapper img {
@@ -25,5 +25,16 @@ main {
 
     transform: translateZ(0);
     object-fit: cover;
+}
+
+@media (max-width: 760px) {
+    .gallery_container {
+        height: 350px;
+    }
+}
+@media (max-width: 480px) {
+    .gallery_container {
+        height: 250px;
+    }
 }
 
