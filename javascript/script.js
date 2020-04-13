@@ -1,15 +1,16 @@
 $(document).ready(function () {
-$(".gallary_wrapper").cycle({
-    fx:'scrollRight',
-    sync:true
+    $(".gallery_wrapper").cycle({
+        fx: 'scrollRight',
+        sync: true
+    })
 })
-})
-
+// var kd='gg'
+// console.log('dsff' + `${kd}`)
 var but_narrow_tmLite = new TimelineMax();
 
 // alert(window.innerWidth)
 
-$(".button").on("click", function (event) {
+$(".button").on('click', function (event) {
     event.preventDefault();
 
     $(this).toggleClass("toggled");
@@ -38,8 +39,16 @@ $(".button").on("click", function (event) {
         }, 1000)
     }
 });
-// console.log(gsap.version)
+$('.gallery_wrapper img').on('mousemove', function (event) {
+    let yCoor = event.clientY /15
+    console.log(yCoor)
+    let proc50OfElem = $('.gallery_wrapper img').height() /4.1
+    let parallax = (parseInt(proc50OfElem) + parseInt(yCoor)) * -1
+    parallax = (parallax) + 'px'
 
+    $('.gallery_wrapper img').css({transform: 'translate(0, ' + parallax + ')'})
+})
+// console.log(gsap.version)
 
 
 
