@@ -8,50 +8,55 @@ main {
 /*-----------------------------------------GALLERY------------------------------------*/
 .gallery_container {
     width: 100%;
-    height: 550px;
-    background-color: green;
+    height: 300px;
 }
 
 .gallery_wrapper {
     width: 100%;
     height: 100%;
-    z-index: 0;
     overflow: hidden;
 }
 
 .gallery_wrapper img {
     width: 100%;
-    min-width: 200px;
+    min-width: 350px;
     height: auto;
-    margin: 0 auto;
-
     transform: translateY(-25%);
-    outline: 1px black;
-
 }
 
 @media (max-width: 1350px) {
     .gallery_container {
-        height: 300px;
+        height: 250px;
     }
 
     .gallery_wrapper img {
-        transform: translateY(-25%);
+        transform: translateY(-30%);
     }
 
 }
+
 @media (max-width: 850px) {
+    .gallery_container {
+        height: 200px;
+    }
     .gallery_wrapper img {
         transform: translateY(-5%);
     }
 }
+
 @media (max-width: 650px) {
     .gallery_container {
-        height: 100px;
-    }
-    .gallery_wrapper img {
-        transform: translateY(-27%);
+        height: 150px;
     }
 }
 
 
+/*-----------------------------------------REQUEST------------------------------------*/
+.request_container{
+    width: 100%;
+    height: 280px;
+
+    border-radius: 5px;
+    background-color: rgba(255, 242, 0, 0.4);
+}
+/*-----------------------------------------GALLERY------------------------------------*/
