@@ -1,3 +1,6 @@
+import validateForm from "./form_validator.js";
+
+
 $(document).ready(function () {
     $(".gallery_wrapper").cycle({
         fx: 'scrollRight',
@@ -49,6 +52,17 @@ $('.gallery_wrapper img').on('mousemove', function (event) {
     $('.gallery_wrapper img').css({transform: 'translate(0, ' + parallax + ')'})
 })
 // console.log(gsap.version)
+
+
+
+// Вызов валидатора формы
+validateForm({
+    formId: 'profile',
+    formValidClass: 'form_valid',
+    formInvalidClass: 'form_invalid',
+
+    inputErrorClass: 'input_error'
+});
 
 
 
