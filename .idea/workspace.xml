@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261b8c71-2379-4725-947b-6e69b493590e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/gallery/oil_dif_bottels1200_800.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/service's interier1200_800.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/oil_dif_bottels.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/oil_dif_bottels.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/service's interier.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/service's interier.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/styles/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/styles/header_first_section.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/styles/header_second_section.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainc.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainc.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +39,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zmru2.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,6 +126,7 @@
       <workItem from="1586270445518" duration="599000" />
       <workItem from="1586630684192" duration="5794000" />
       <workItem from="1586706134092" duration="22193000" />
+      <workItem from="1587903286113" duration="22000" />
     </task>
     <servers />
   </component>
