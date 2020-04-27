@@ -14,7 +14,7 @@
 <!--Один общий файл css для общих стилей и дополнительно под каждый отдельный лендинг свой css.
 Таким образом будет легко всё поддерживать и по возможности легко убирать/добавлять.-->
 <!--Ну а на "продакшен" было неплохо еще все css "минифицировать"-->
-<header>
+<header class="">
     <section class="header_first_section">
         <div class="header_sections_container">
             <div class="phone_schedule_container">
@@ -76,19 +76,23 @@
     <div id="in_dev">В разработке</div>
     <section class="gallery_container">
         <div class="gallery_wrapper">
-            <img src="images/gallery/2.jpg">
-            <img src="images/gallery/1.jpg">
-            <img src="images/gallery/oil_dif_bottels1200_800.jpeg">
-            <img src="images/gallery/service's%20interier1200_800.jpeg">
+            <img src="images/gallery/2.jpg" alt="">
+            <img src="images/gallery/1.jpg" alt="">
+            <img src="images/gallery/oil_dif_bottels1200_800.jpeg" alt="">
+            <img src="images/gallery/service's%20interier1200_800.jpeg" alt="">
         </div>
     </section>
-    <section class="request_container">
-        <div class="request_wrapper">
-            <form action="#" id="profile" class="form">
-                <p class="form__success-msg">Форма заполнена правильно</p>
-                <p class="form__error-msg">Форма содержит ошибки</p>
 
-                <label for="profile-name">Имя <span class="required">*</span></label>
+
+    <form action="#" id="profile" class="form_request">
+
+        <p class="form_request_form_success-msg">Форма заполнена правильно</p>
+        <p class="form_request_form_error-msg">Форма содержит ошибки</p>
+
+        <div class="form_request_inputs">
+            <div class="form_request_form">
+
+                <label class="form_request_label">Имя</label>
                 <input
                         name="name"
                         id="profile-name"
@@ -96,41 +100,57 @@
                         data-required
                         data-validator="letters"
                 />
-                <span class="form__comment">Только буквы (русские или английские)</span>
 
-                <label for="profile-age">Возраст</label>
-                <input
-                        name="age"
-                        id="profile-age"
-                        placeholder="Мой возраст"
-                        data-validator="number"
-                        data-validator-min="0"
-                        data-validator-max="100"
-                />
-                <span class="form__comment">Число от 0 до 100</span>
 
-                <label for="profile-phone">Телефон</label>
+            </div>
+
+            <div class="form_request_form">
+
+                <label class="form_request_label">Номер телефона</label>
                 <input
-                        name="phone"
+                        name="name"
                         id="profile-phone"
-                        placeholder="Мой телефон"
-                        data-validator="regexp"
-                        data-validator-pattern="^\+7\d{10}$"
-                />
-                <span class="form__comment">В формате +71234567890</span>
-
-                <label for="profile-number">Любимое число</label>
-                <input
-                        name="number"
-                        id="profile-number"
-                        placeholder="42?"
+                        placeholder="89105483051"
+                        data-required
                         data-validator="number"
                 />
 
-                <button>Сохранить</button>
-            </form>
+               </div>
+            <button>Сохранить</button>
         </div>
-    </section>
+
+
+        <!--                <label for="profile-age">Возраст</label>-->
+        <!--                <input-->
+        <!--                        name="age"-->
+        <!--                        id="profile-age"-->
+        <!--                        placeholder="Мой возраст"-->
+        <!--                        data-validator="number"-->
+        <!--                        data-validator-min="0"-->
+        <!--                        data-validator-max="100"-->
+        <!--                />-->
+        <!--                <span class="form__comment">Число от 0 до 100</span>-->
+
+        <!--                <label for="profile-phone">Телефон</label>-->
+        <!--                <input-->
+        <!--                        name="phone"-->
+        <!--                        id="profile-phone"-->
+        <!--                        placeholder="Мой телефон"-->
+        <!--                        data-validator="regexp"-->
+        <!--                        data-validator-pattern="^\+7\d{10}$"-->
+        <!--                />-->
+        <!--                <span class="form__comment">В формате +71234567890</span>-->
+
+        <!--                <label for="profile-number">Любимое число</label>-->
+        <!--                <input-->
+        <!--                        name="number"-->
+        <!--                        id="profile-number"-->
+        <!--                        placeholder="42?"-->
+        <!--                        data-validator="number"-->
+        <!--                />-->
+
+
+    </form>
 </main>
 <footer>
 
