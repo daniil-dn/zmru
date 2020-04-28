@@ -2,7 +2,7 @@ import validateForm from "./form_validator.js";
 
 
 $(document).ready(function () {
-    $(".gallery_wrapper").cycle({
+    $(".main__gallery").cycle({
         fx: 'scrollRight',
         sync: true
     })
@@ -13,12 +13,12 @@ var but_narrow_tmLite = new TimelineMax();
 
 // alert(window.innerWidth)
 
-$(".button").on('click', function (event) {
+$(".nav__button").on('click', function (event) {
     event.preventDefault();
 
     $(this).toggleClass("toggled");
     if ($(this).hasClass('toggled')) {
-        $('.narrow_buttons').removeClass('disp_none ');
+        $('.nav__narrow-buttons').removeClass('disp_none ');
         but_narrow_tmLite.to('.but_narrow_wrap', 0.1, {
             backgroundColor: 'rgb(231,231,231)'
         }).to('.but_narrow_wrap', 0.2, {borderRadius: '10px 10px 0 0'},)
@@ -38,18 +38,18 @@ $(".button").on('click', function (event) {
     } else {
         but_narrow_tmLite.reverse(1);
         setTimeout(() => {
-            $('.narrow_buttons').addClass('disp_none')
+            $('.nav__narrow-buttons').addClass('disp_none')
         }, 1000)
     }
 });
-$('.gallery_wrapper img').on('mousemove', function (event) {
+$('.main__gallery img').on('mousemove', function (event) {
     let yCoor = event.clientY /15
     console.log(yCoor)
-    let proc50OfElem = $('.gallery_wrapper img').height() /4.1
+    let proc50OfElem = $('.main__gallery img').height() /4.1
     let parallax = (parseInt(proc50OfElem) + parseInt(yCoor)) * -1
     parallax = (parallax) + 'px'
 
-    $('.gallery_wrapper img').css({transform: 'translate(0, ' + parallax + ')'})
+    $('.main__gallery img').css({transform: 'translate(0, ' + parallax + ')'})
 })
 // console.log(gsap.version)
 

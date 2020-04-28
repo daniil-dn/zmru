@@ -1,96 +1,189 @@
-@import "header.css" all;
-@import "content.css" all;
+main {
+    width: 100%;
+    margin: 10px 0 0 0;
+    height: max-content;
+}
 
-body {
-    /*height: 10000px;*/
 
-    margin: 0;
-    padding: 0;
+/*-----------------------------------------GALLERY------------------------------------*/
+.main__gallery-container {
+    width: 100%;
+    height: 300px;
+}
+
+.main__gallery {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main__gallery img {
+    width: 100%;
+    min-width: 350px;
+    height: auto;
+    transform: translateY(-25%);
+}
+
+@media (max-width: 1350px) {
+    .main__gallery-container {
+        height: 250px;
+    }
+
+    .main__gallery img {
+        transform: translateY(-30%);
+    }
+
+}
+
+@media (max-width: 850px) {
+    .main__gallery-container {
+        height: 200px;
+    }
+
+    .main__gallery img {
+        transform: translateY(-5%);
+    }
+}
+
+@media (max-width: 650px) {
+    .main__gallery-container {
+        height: 150px;
+    }
+}
+
+
+/*-----------------------------------------REQUEST------------------------------------*/
+
+.main__form {
+    width: 100% ;
+    height: 280px;
+    margin: 16px 0 0 0;
+
+    position: relative;
+    background-color: rgba(255, 242, 0, 0);
+    outline: 1px #ff0000 solid;
+}
+.form-for-request__inputs{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form-for-request__input {
+    max-width: 500px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.form-for-request__input label {
+    flex: 35%;
+    padding-right: 15px;
+    padding-left: 5px;
+
+    font-size: 1.1em;
+}
+
+.form-for-request__input input {
+    padding: 5px;
+
+    border: 2px #eee solid;
+    border-radius: 5px;
+
+    font-size: 1em;
+    line-height: 1.5em;
+
+    flex-basis: 65%;
+}
+
+.form-for-request__input input:focus {
+    border-color: #ffdb4d;
+    outline: none;
+}
+
+@media (max-width: 500px) {
+    .form-for-request__input {
+        margin: 17px auto;
+        flex-direction: column;
+    }
+
+    .form-for-request__input input {
+        width: 60%;
+    }
+}
+
+
+.main__form button {
+    margin: 0 auto;
+    margin-top: 1.5em;
+    padding: 0 16px;
+
+    display: block;
+
+    color: #000;
     border: none;
+    border-radius: 3px;
+    background: #ffdb4d;
 
-    font-family: 'PT Sans', sans-serif;
-    color: #333;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1em;
+    line-height: 2em;
 
-    background-color:#F5F5F5 ;
 }
 
-.disp_none {
+
+.required {
+    color: #aa3e2f;
+}
+
+/*----form output----*/
+.form__comment {
+    color: #777;
+
+    font-size: .7em;
+}
+
+
+/* --------success or error----------*/
+.form-for-request__request-valid-msg {
+    margin: 0;
+    padding: 7px;
+
     display: none;
+
+    text-align: center;
+    color: #155724;
+    border-radius: 3px;
+    background: #d4edda;
 }
 
-disp_block {
+.form_valid .form-for-request__request-valid-msg {
     display: block;
 }
 
-/*MAIN*/
+.form-for-request__request-invalid-msg {
+    margin: 0;
+    padding: 7px;
 
-#in_dev {
-    height: max-content;
-    padding: 5px 5px 5px 6px;
-    border-radius: 2px 10px 2px 10px;
-    background-color: rgba(158, 146, 108, 0.42);
-    position: fixed;
-    left: 0;
-    top: 40%;
+    display: none;
+
+    text-align: center;
+    color: #721c24;
+    border-radius: 3px;
+    background: #f8d7da;
 }
 
-#map_yandex {
-    height: 100%;
-    width: 100%;
-    /*outline: 1px solid #7e0102;*/
+.form_invalid .form-for-request__request-invalid-msg {
+
+    display: block;
 }
 
-/*--------------------------------MAIN END----------------------------------------------------*/
+.input_error {
 
-footer {
-    width: 100%;
-
-    border-radius: 10px 15px 0 0;
-
-
-    height: 150px;
-
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    position: relative;
-/
-    /*bottom: 0;*/
+    border-color: #d00;
 }
 
-/*LOGO*/
 
-
-/*Yandex profile iframe*/
-
-footer iframe {
-    position: absolute;
-    top: 30px;
-    right: 40px;
-    /*align-self: flex-end;*/
-    /*    justify-self: flex-start;*/
-}
-
-/*text for customers*/
-
-@media (max-width: 480px) {
-
-    #map_yandex {
-        border-radius: 10px;
-    }
-
-    footer {
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-
-    footer iframe {
-        position: static;
-
-    }
-
-}
+/*-----------------------------------------GALLERY------------------------------------*/

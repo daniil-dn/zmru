@@ -1,5 +1,5 @@
 
-.head_second_section {
+.header__second-section {
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -10,41 +10,61 @@
 
     /*outline: 1px solid #c80034;*/
 }
+.header__menu-container {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+}
 
-.head_second_section .header_sections_container {
+
+@media (max-width: 1200px) {
+    .header__menu-container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 700px) {
+    .header__menu-container {
+        height: max-content;
+        width: 100%;
+    }
+}
+
+ .header__menu-container {
     height: 70px;
     position: relative;
 }
 
 @media (max-width: 700px) {
-    .head_second_section {
+    .header__second-section {
         font-size: 0.9em;
     }
-    .head_second_section .header_sections_container {
+    .header__second-section .header__menu-container {
         height: 50px;
     }
 }
 @media (max-width: 330px) {
-    .head_second_section {
+    .header__second-section {
         font-size: 0.6em;
     }
 }
 
 
 /*---------------------------------------LOGOTYPE---------------------------------------*/
-header .logo_container {
+header .header__logo {
     float: left;
     height: 100%;
     width: auto;
     /*outline: 1px solid #c8300d;*/
 }
 
-header .logo_wrapper {
+header .header__logo-container {
     height: 100%;
     /*outline: 1px solid #3cc850;*/
 }
 
-header .logo_wrapper img {
+header .header__logo-container img {
     height: 100%;
 
 }
@@ -52,13 +72,13 @@ header .logo_wrapper img {
 
 @media (max-width: 700px) {
     /*LOGOTYPE */
-    header .logo_container {
+    header .header__logo {
         margin-left: 10px;
         float: none;
         display: inline-block;
     }
 
-    header .logo_wrapper {
+    header .header__logo-container {
         width: min-content;
 
 
@@ -66,7 +86,7 @@ header .logo_wrapper img {
 }
 
 /*---------------------------------------NAVIGATION---------------------------------------*/
-.buttons_container {
+.header__nav {
     height: 100%;
     width: 600px;
 
@@ -80,13 +100,13 @@ header .logo_wrapper img {
 }
 
 @media (max-width: 850px) {
-    .buttons_container {
+    .header__nav {
         width: 450px;
     }
 }
 
 @media (max-width: 700px) {
-    .buttons_container {
+    .header__nav {
         width: 40%;
         height: min-content;
 
@@ -103,7 +123,7 @@ header .logo_wrapper img {
 
 
 /*---------------------------------------nav FOR WIDE SCREENS---------------------------------------*/
-.but_wide_wrap {
+.nav__wide-menu {
     width: max-content;
     margin: 0 auto;
 
@@ -113,7 +133,7 @@ header .logo_wrapper img {
     left: 50%;
 }
 
-.but_wide_wrap div {
+.nav__wide-menu div {
     display: inline-block;
 
     padding: 5px 10px;
@@ -124,27 +144,27 @@ header .logo_wrapper img {
 
 }
 
-.but_wide_wrap div:hover {
+.nav__wide-menu div:hover {
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 2px 2px 5px 4px rgba(37, 41, 33, 0.2);
 }
 
-.but_wide_wrap div:last-child {
+.nav__wide-menu div:last-child {
     margin-right: 0;
 }
 
-.but_wide_wrap div:first-child {
+.nav__wide-menu div:first-child {
     margin-left: 0;
 }
 
 @media (max-width: 700px) {
-    .but_wide_wrap {
+    .nav__wide-menu {
         display: none;
     }
 }
 
 /*---------------------------------------NAV FOR narrow SCREENS---------------------------------------*/
-.but_narrow_wrap {
+.nav__narrow-menu {
     width: 100%;
     padding: 0 0 1px 0;
     border-radius: 15px 15px 25px 25px;
@@ -161,7 +181,7 @@ header .logo_wrapper img {
     /*outline: 1px solid #c8003f;*/
 }
 
-.but_narrow_wrap .button {
+.nav__narrow-menu .nav__button {
     width: min-content;
     margin: 0 auto;
     padding: 8px;
@@ -176,7 +196,7 @@ header .logo_wrapper img {
     user-select: none;
 }
 
-.but_narrow_wrap .button span {
+.nav__narrow-menu .nav__button span {
     width: 18px;
     height: 3px;
     border-radius: 3px;
@@ -191,37 +211,37 @@ header .logo_wrapper img {
     user-select: none;
 }
 
-.but_narrow_wrap .button span:nth-child(2) {
+.nav__narrow-menu .nav__button span:nth-child(2) {
     margin: 3px 0;
 }
 
-.but_narrow_wrap .button.toggled span:first-child {
+.nav__narrow-menu .nav__button.toggled span:first-child {
     transform: translateY(6px) rotate(45deg);
 }
 
-.but_narrow_wrap .button.toggled span:nth-child(2) {
+.nav__narrow-menu .nav__button.toggled span:nth-child(2) {
     opacity: 0;
 }
 
-.but_narrow_wrap .button.toggled span:last-child {
+.nav__narrow-menu .nav__button.toggled span:last-child {
     transform: translateY(-6px) rotate(-45deg);
 }
 
-.button_main, .button_services, .button_contacts {
+.button_main, .nav__n-button-services, .nav__n-button-contacts {
     font-weight: bolder;
 
 }
 
 
 @media (max-width: 700px) {
-    .but_narrow_wrap {
+    .nav__narrow-menu {
         display: block;
     }
 
 }
 
 /*----------------------------------------button------------------------------------------*/
-.narrow_buttons {
+.nav__narrow-buttons {
     width: 100%;
     height: 0;
     border-radius: 0 0 10px 10px;
@@ -238,7 +258,7 @@ header .logo_wrapper img {
 
 }
 
-.narrow_buttons div {
+.nav__narrow-buttons div {
     padding: 0.5em 0 0.5em 0;
     border-radius: 10px;
 
@@ -249,11 +269,11 @@ header .logo_wrapper img {
     user-select: none;
 }
 
-.narrow_buttons div:hover {
+.nav__narrow-buttons div:hover {
 
     background: rgb(219, 219, 219);
 }
 
-.narrow_buttons div:last-child {
+.nav__narrow-buttons div:last-child {
     padding-bottom: 0.5em;
 }

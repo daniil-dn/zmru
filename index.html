@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link id='link_css' type="text/css" href="styles/main.css" rel="stylesheet">
+    <link id='link_css' type="text/css" href="styles/index.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/logo/color_image_pistons.png"/>
     <script type="text/javascript" src="javascript/before_loading.js"></script>
     <title></title>
@@ -14,22 +14,22 @@
 <!--Один общий файл css для общих стилей и дополнительно под каждый отдельный лендинг свой css.
 Таким образом будет легко всё поддерживать и по возможности легко убирать/добавлять.-->
 <!--Ну а на "продакшен" было неплохо еще все css "минифицировать"-->
-<header class="">
-    <section class="header_first_section">
-        <div class="header_sections_container">
-            <div class="phone_schedule_container">
-                <article class="phone_schedule_wrapper">
-                    <a class="phone" href="tel:+7 (910) 548-30-51" title="Номер телефона">+ 7(910)-548-30-51</a>
-                    <a class="phone" href="tel:+7 (953) 461-44-25" title="Номер телефона">+ 7(953)-461-44-25</a>
+<header>
+    <section class="header__contacts-schedule">
+        <div class="header__contacts-schedule-container ">
+            <arcticle class="header__contacts-container">
+                <div class="header__contacts">
+                    <a class="header__phone" href="tel:+7 (910) 548-30-51" title="Номер телефона">+ 7(910)-548-30-51</a>
+                    <a class="header__phone" href="tel:+7 (953) 461-44-25" title="Номер телефона">+ 7(953)-461-44-25</a>
                     <time title="Мы работаем без выходных
-                           с 10:00 до 21:00" class="schedule"><p>с 10:00 до 21:00</p>
+                           с 10:00 до 21:00" class="header__schedule"><p>с 10:00 до 21:00</p>
                     </time>
-                </article>
-            </div>
+                </div>
+            </arcticle>
 
-            <article class="address_container" title="Нажмите, чтобы посмотреть на карте">
+            <article class="header__address-container" title="Нажмите, чтобы посмотреть на карте">
 
-                <div class="address_wrapper">
+                <div class="header__address">
                     <a href="https://yandex.ru/maps/-/CKUXELn0">
                         <p>Находимся в г. Жуков<br> ул.Чкалова 4</p>
                     </a></div>
@@ -38,32 +38,32 @@
         </div>
     </section>
 
-    <section class="head_second_section">
-        <div class="header_sections_container">
+    <section class="header__menu">
+        <div class="header__menu-container">
 
-            <article title="Жуков-мото" class="logo_container">
-                <article class="logo_wrapper">
+            <article title="Жуков-мото" class="header__logo">
+                <article class="header__logo-container">
                     <img src="images/logo/color_medium_equal.png" alt="Ремонт садовой техники">
                 </article>
             </article>
-            <nav class="buttons_container">
-                <div class="but_wide_wrap">
-                    <div class="nav_button_main"> Главная страница</div>
-                    <div class="nav_button_services">Услуги</div>
-                    <div class="nav_button_contacts">Контакты</div>
+            <nav class="header__nav nav">
+                <div class="nav__wide-menu">
+                    <div class="nav__w-button-main"> Главная страница</div>
+                    <div class="nav__w-button-services">Услуги</div>
+                    <div class="nav__w-button-contacts">Контакты</div>
                 </div>
 
-                <div class="but_narrow_wrap" style="">
-                    <div class="button">
+                <div class="nav__narrow-menu" style="">
+                    <div class="nav__button">
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
 
-                    <div class="narrow_buttons disp_none">
-                        <div class="button_main "> Главная страница</div>
-                        <div class="button_services">Услуги</div>
-                        <div class="button_contacts">Контакты</div>
+                    <div class="nav__narrow-buttons disp_none">
+                        <div class="nav__n-button-main"> Главная страница</div>
+                        <div class="nav__n-button-services">Услуги</div>
+                        <div class="nav__n-button-contacts">Контакты</div>
                     </div>
                 </div>
 
@@ -73,24 +73,25 @@
 
 </header>
 <main>
-    <div id="in_dev">В разработке</div>
-    <section class="gallery_container">
-        <div class="gallery_wrapper">
-            <img src="images/gallery/2.jpg" alt="">
-            <img src="images/gallery/1.jpg" alt="">
-            <img src="images/gallery/oil_dif_bottels1200_800.jpeg" alt="">
-            <img src="images/gallery/service's%20interier1200_800.jpeg" alt="">
+    <div id="main__in_dev">В разработке</div>
+
+    <section class="main__gallery-container">
+        <div class="main__gallery">
+            <img src="images/gallery/2.jpg" alt="Фото">
+            <img src="images/gallery/1.jpg" alt="Фото">
+            <img src="images/gallery/oil_dif_bottels1200_800.jpeg" alt="Фото">
+            <img src="images/gallery/service's%20interier1200_800.jpeg" alt="Фото">
         </div>
     </section>
 
 
-    <form action="#" id="profile" class="form_request">
+    <form action="#" id="profile" class="main__form form-for-request">
 
-        <p class="form_request_form_success-msg">Форма заполнена правильно</p>
-        <p class="form_request_form_error-msg">Форма содержит ошибки</p>
+        <p class="form-for-request__request-valid-msg">Форма заполнена правильно</p>
+        <p class="form-for-request__request-invalid-msg">Форма содержит ошибки</p>
 
-        <div class="form_request_inputs">
-            <div class="form_request_form">
+        <div class="form-for-request__inputs">
+            <div class="form-for-request__input">
 
                 <label class="form_request_label">Имя</label>
                 <input
@@ -104,7 +105,7 @@
 
             </div>
 
-            <div class="form_request_form">
+            <div class="form-for-request__input">
 
                 <label class="form_request_label">Номер телефона</label>
                 <input
@@ -115,7 +116,7 @@
                         data-validator="number"
                 />
 
-               </div>
+            </div>
             <button>Сохранить</button>
         </div>
 
@@ -166,6 +167,7 @@
     <!--        наличии и стоимости товара уточняйте у менеджера по телефонам, указанным на сайте.-->
     <!--    </aside>-->
 </footer>
+
 <!------------------------------------MODULES/IMPORTS-------------------------------------->
 <script src="javascript/node_modules/gsap/dist/gsap.js"></script>
 <script src="javascript/node_modules/gsap/dist/CSSRulePlugin.js"></script>
@@ -177,6 +179,7 @@
 <!--<script type="text/javascript" charset="utf-8" async-->
 <!--        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab083308dcc1374ca037feac36e0667b500d2c9e614607378e1d50fcb721aeebd-->
 <!--&amp;width=100%&amp;height=100%&amp;id=map_yandex&amp;lang=ru_RU&amp;scroll=true"></script>-->
+
 
 </body>
 </html>
